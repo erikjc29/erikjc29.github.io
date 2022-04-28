@@ -1,0 +1,213 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{
+margin: 15px 0 15px 0;
+}
+main{
+    width: 100%;
+}
+.box-1{
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+.textoEncriptador{
+    width: 80%;
+    height: 288px;
+    margin: 30px 0 0 100px;
+    color: #0A3871;
+    resize: none;
+    outline: none;
+    background:transparent;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.advertenciaImg{
+    width: 20px;
+    vertical-align: text-bottom;
+}
+.botones{
+    margin: 200px 0 0 0 ;
+}
+.btn{
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    background: #0A3871;
+    border:none;
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+    font-style: normal;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 1s;
+}
+.btn:hover{
+    background: aliceblue;
+    color: #0A3871;
+    border: 2px #0A3871 solid ;
+    transform: scale(1);
+}
+.box-2{
+    width: 40%;
+    float: left;
+    text-align: center;
+    
+}
+.box-2-1{
+    width: 400px;
+    height: 594px;
+    margin: 0 auto;
+    background-color: white;
+    border: none;
+    resize: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 150%;
+    box-shadow: 5px 5px 30px 5px #000000;
+}
+.msgNoEncontrado h2{
+    font-weight: bold;
+    width: 240px;
+    margin: 0 auto;
+    font-size: 25px;
+}
+.msgDesea{
+    margin: 20px 0 0 0;
+}
+.msgDesea h3{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.textoEncriptado{
+    width: 80%;
+    height: 400px;
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 150%; 
+    
+}
+.btnCopiar{
+    margin-top: 80px;
+}
+.btn3{
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background: #0A3871;
+    border:none;
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+    font-style: normal;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 90%;
+}
+footer{
+    width: 100%;
+    display: inline-block;
+}
+.piePagina{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(aliceblue, #0A3871);
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.logoPiePagina{
+    width: 40px;
+    margin: 20px;
+    transition: 1s all;
+}
+.logoPiePagina:hover{
+    transform: scale(1.2);
+    transform: rotate(360deg);
+}
+
+
+@media screen and (max-width: 912px){
+    .box-1, .box-2,.botones,.btn3{
+        width: 90%;
+        margin: 0 auto;
+        }
+        .btn1,.btn2,.btn3{
+            margin: 5px 0 5px 0 ;
+            margin: 0 auto;
+        }
+        .textoEncriptado,.textoEncriptador,.box-2-1{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .textoEncriptado{
+            height: 400px;
+        }
+}
+@media screen and (max-width: 820px){
+    .box-1, .box-2,.botones,.btn3{
+        width: 100%;
+        margin: 0 auto;
+        }
+        .btn1,.btn2,.btn3{
+            margin: 5px 0 5px 0 ;
+        }
+        .textoEncriptado,.textoEncriptador,.box-2-1{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .textoEncriptado{
+            height: 400px;
+        }
+}
+
+
+
+@media screen and (max-width:768px) {
+    .box-1, .box-2,.botones,.btn3{
+        width: 100%;
+        margin: 0 auto;
+        }
+        .btn1,.btn2,.btn3{
+            margin: 5px 0 5px 0 ;
+        }
+        .textoEncriptado,.textoEncriptador{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .textoEncriptado{
+            height: 400px;
+        }
+}
+@media screen and (max-width:480px) {
+    .box-1, .box-2,.btn1,.btn2,.botones,.btn3,.imgMuñeco,.msgNoEncontrado h2,.msgDesea h3{
+    width: 95%;
+    margin: 0 auto;
+    }
+    .btn1,.btn2,.btn3{
+        margin: 5px 0 5px 0 ;
+    }
+    .textoEncriptado,.textoEncriptador,.box-2-1{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .textoEncriptado{
+        height: 300px;
+    }
+}
